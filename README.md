@@ -12,17 +12,17 @@ A powerful, highly practical, and single-file PHP script that scans your project
 
 ## Usage
 
-Upload `index.php` to the root folder of the project you want to analyze.
+Upload `directoryscanner.php` to the root folder of the project you want to analyze.
 
 ### 1. Web Interface
 Open the file in your browser. You can use the top control bar to apply filters instantly:
-`http://your-domain.com/index.php`
+`http://your-domain.com/directoryscanner.php`
 
 ### 2. JSON API
 You can fetch the filtered tree programmatically by adding the `api=true` parameter alongside any other options.
 
 **Request (Example: Only PHP files, max depth 2, show hidden):**
-`GET /index.php?api=true&ext=php&depth=2&hidden=1`
+`GET /directoryscanner.php?api=true&ext=php&depth=2&hidden=1`
 
 **Response:**
 ```json
